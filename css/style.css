@@ -1,0 +1,458 @@
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px;
+  margin: 20px;
+}
+.img {
+  width: 20%;
+}
+.header-nav-list {
+  display: flex;
+  font-size: 20px;
+  color: gray;
+}
+.header-nav-item:not(:last-child) {
+  margin-right: 20px;
+}
+.group {
+  position: relative;
+  margin-bottom: 80px;
+}
+.group-image {
+  display: block;
+  margin-left: auto;
+}
+.group-pickup {
+  position: absolute;
+  top: 60px;
+  left: 13%;
+  font-size: 80px;
+  line-height: 200%;
+  font-family: "Akaya Telivigala", cursive;
+  font-weight: 200;
+  color: rgb(247, 71, 100);
+}
+.group-span {
+  color: rgb(54, 179, 221);
+}
+.group-about {
+  position: absolute;
+  top: 65%;
+  left: 13%;
+}
+.group-text {
+  color: rgb(247, 71, 100);
+  font-size: 28px;
+  font-weight: bold;
+  line-height: 30px;
+  margin-bottom: 10px;
+}
+.group-note {
+  color: grey;
+  font-size: 16px;
+  line-height: 30px;
+}
+.news {
+  display: block;
+  margin: 0px auto 80px auto;
+  width: 800px;
+}
+.news-tag {
+  font-size: 24px;
+  font-family: "Akaya Telivigala", cursive;
+  color: rgb(247, 71, 100);
+  margin-bottom: 20px;
+}
+.news-ttl {
+  font-size: 28px;
+  color: rgb(71, 71, 71);
+  margin-bottom: 40px;
+}
+.news-box {
+  border-top: solid 2px rgb(192, 191, 191);
+  border-bottom: solid 2px rgb(192, 191, 191);
+}
+.news-box:nth-child(5) {
+  border-bottom: solid 3px grey;
+}
+.news-box-1 {
+  display: flex;
+  flex-direction: row;
+  font-size: 20px;
+  margin: 40px 0px 20px 0px;
+  padding-bottom: 20px;
+  border-bottom: solid 1px rgb(204, 203, 203);
+}
+.news-box-2 {
+  display: flex;
+  flex-direction: row;
+  font-size: 20px;
+  margin: 20px 0px;
+  padding-bottom: 20px;
+  border-bottom: solid 1px rgb(204, 203, 203);
+}
+.news-box-3 {
+  display: flex;
+  flex-direction: row;
+  font-size: 20px;
+  margin: 20px 0px;
+  padding-bottom: 20px;
+  border-bottom: solid 1px rgb(204, 203, 203);
+}
+.news-box-4 {
+  display: flex;
+  flex-direction: row;
+  font-size: 20px;
+  margin: 20px 0px;
+  padding-bottom: 20px;
+  border-bottom: solid 1px rgb(204, 203, 203);
+}
+.news-box-5 {
+  display: flex;
+  flex-direction: row;
+  font-size: 20px;
+  margin: 20px 0px;
+  padding-bottom: 20px;
+  border-bottom: solid 1px rgb(204, 203, 203);
+}
+.day {
+  margin-right: 50px;
+  color: rgba(51, 51, 51, 0.61);
+}
+.news-button {
+  margin-right: 50px;
+  color: white;
+  background-color: rgb(190, 22, 50);
+  text-align: center;
+  padding: 5px 20px;
+  border-radius: 15px;
+  font-size: 15px;
+}
+.news-about {
+  color: rgba(51, 51, 51, 0.61);
+}
+.about {
+  background: rgb(235, 232, 232);
+  padding: 30px 0px 60px 0px;
+  margin-bottom: 80px;
+}
+.about-tag {
+  text-align: center;
+  font-family: "Akaya Telivigala", cursive;
+  color: rgb(247, 71, 100);
+  font-size: 20px;
+}
+.about-ttl {
+  text-align: center;
+  margin: 20px 0px 30px 0px;
+  font-size: 26px;
+  color: rgb(71, 71, 71);
+}
+.about-image {
+  width: 25%;
+  margin: 0px 250px 0px 100px;
+}
+.about-description {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.about-text {
+  flex-direction: column;
+  margin-right: 100px;
+  font-size: 16px;
+  color: rgb(102, 100, 100);
+  line-height: 28px;
+  font-weight: bold;
+}
+.about-text-1 {
+  margin-bottom: 35px;
+}
+.service {
+  width: 1000px;
+  display: block;
+  margin: 0px auto 80px auto;
+}
+.service-tag {
+  font-family: "Akaya Telivigala", cursive;
+  color: rgb(247, 71, 100);
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.service-ttl {
+  font-size: 24px;
+  color: rgb(71, 71, 71);
+  margin-bottom: 40px;
+}
+.service-card {
+  display: flex;
+  flex-direction: row;
+}
+.service-card-left {
+  background: rgb(233, 32, 82);
+  width: 500px;
+  padding: 40px;
+}
+.service-image-left {
+  width: 160px;
+  margin: 0px auto 20px auto;
+  display: block;
+}
+.service-card-ttl-left {
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+.service-card-text-left {
+  margin: 0px 0px 20px 0px;
+  color: white;
+  line-height: 30px;
+  font-size: 15px;
+  font-weight: bold;
+}
+.service-card-right-1 {
+  background: rgb(243, 116, 138);
+  padding: 40px 10px 40px 20px;
+  width: 500px;
+  display: flex;
+  flex-direction: row;
+}
+.service-image-right {
+  width: 130px;
+}
+.service-card-about-right {
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+}
+.service-card-ttl-right {
+  color: white;
+  font-size: 20px;
+  margin-bottom: 20px;
+  font-weight: bolder;
+}
+.service-card-text-right {
+  font-size: 17px;
+  color: white;
+  line-height: 30px;
+  font-weight: bolder;
+}
+.service-card-right-2 {
+  background: rgb(150, 115, 121);
+  padding: 40px 10px 40px 20px;
+  width: 500px;
+  display: flex;
+  flex-direction: row;
+}
+.blog {
+  padding: 50px 250px 50px 250px;
+  background: rgb(235, 232, 232);
+  margin-bottom: 80px;
+}
+.blog-tag {
+  font-family: "Akaya Telivigala", cursive;
+  color: rgb(247, 71, 100);
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+.blog-ttl {
+  font-size: 24px;
+  color: rgb(71, 71, 71);
+  margin-bottom: 40px;
+}
+.blog-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: relative;
+}
+.blog-card-detail {
+  width: 300px;
+}
+.blog-card-detail-banner {
+  background: rgb(196, 26, 69);
+  position: absolute;
+  color: white;
+  padding: 10px 20px 10px 20px;
+  border-top-left-radius: 15px;
+}
+.blog-card-detail-image {
+  width: 100%;
+  display: block;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+.blog-card-detail-description {
+  background: white;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  padding: 25px;
+}
+.blog-card-detail-text {
+  color: rgb(65, 63, 63);
+  font-weight: bold;
+  line-height: 30px;
+  margin-bottom: 30px;
+  font-size: 16px;
+}
+.blog-card-detail-caption {
+  color: gray;
+}
+.blog-card-detail-date {
+  display: inline-block;
+  font-size: 15px;
+  margin-right: 50px;
+}
+.blog-card-detail-tag {
+  display: inline-block;
+  font-size: 15px;
+}
+.blog-button {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+.blog-button-text {
+  display: inline-block;
+  text-align: center;
+  background: white;
+  padding: 20px 40px;
+  font-size: 18px;
+  border-radius: 30px;
+  border: solid 3px rgb(196, 26, 69);
+  color: rgb(196, 26, 69);
+  font-weight: 700;
+}
+.company {
+  width: 800px;
+  margin: 0px auto 80px auto;
+}
+.company-tag {
+  font-family: "Akaya Telivigala", cursive;
+  color: rgb(247, 71, 100);
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+.company-ttl {
+  font-size: 24px;
+  color: rgb(71, 71, 71);
+  margin-bottom: 40px;
+}
+.company-list-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.company-list-th {
+  text-align: left;
+  border: solid 2px #ccc;
+  padding: 20px;
+  width: 30%;
+  color: rgb(77, 76, 76);
+  background: rgb(235, 232, 232);
+}
+.company-list-td {
+  border: solid 1px #ccc;
+  padding: 20px;
+  color: rgb(77, 76, 76);
+}
+.post {
+  width: 80%;
+  height: 100%;
+  margin: 0px auto 70px auto;
+  display: flex;
+  flex-direction: row;
+}
+.post-recruit {
+  position: relative;
+  width: 50%;
+}
+.post-recruit-image {
+  width: 100%;
+}
+.post-recruit-text {
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  color: white;
+  font-size: 32px;
+  font-weight: bold;
+}
+.post-interview {
+  position: relative;
+  width: 50%;
+  height: 100%;
+}
+.post-interview-image {
+  width: 100%;
+}
+.post-interview-text {
+  position: absolute;
+  top: 40%;
+  left: 30%;
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+}
+.form-text {
+  text-align: center;
+  font-size: 20px;
+  color: rgb(77, 76, 76);
+  font-weight: bold;
+}
+.form-text-bar {
+  border-left: solid 3px rgb(240, 50, 81);
+  margin-left: 50%;
+  margin-top: 20px;
+  line-height: 50px;
+}
+.form-botten {
+  display: flex;
+  justify-content: center;
+  margin: 30px auto 80px auto;
+}
+.form-botten-text {
+  position: relative;
+  background: linear-gradient(90deg, deeppink, rgb(146, 12, 84));
+  width: 200px;
+  display: block;
+  padding: 30px 60px;
+  text-align: center;
+  color: #fff;
+  font-size: 17px;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 70px;
+  margin: 0px auto;
+  box-shadow: 0px 10px 3px rgb(151, 14, 87);
+}
+.form-botten-text::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  background: url(../img/mailicon.svg) no-repeat;
+  background-size: cover;
+  width: 30px;
+  height: 30px;
+  transform: translate(0, -50%);
+  margin-left: 18px;
+}
+.footer {
+  padding: 20px 0px;
+  text-align: center;
+  background: rgb(235, 232, 232);
+}
+.footer-text {
+  color: rgb(77, 76, 76);
+  font-size: 13px;
+}
+.footer-text-span {
+  font-size: 3px;
+}
